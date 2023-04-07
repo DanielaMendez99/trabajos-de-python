@@ -1,0 +1,51 @@
+print("FUNDAMENTOS DE PYTHON")
+print("Daniela Mendez")
+
+a=int(input("Ingrese la cantidad:"))
+b=int(input("Ingrese la cantidad:"))
+respuesta=a==b
+print("OPCION1")
+print("Los numeros: "+ str(a)+ " y "+ str(b)+" son iguales: "+str(respuesta))
+print("OPCION 2")
+print(f"Los numeros: {a} y {b} son igules: {respuesta} ")
+print("OPCION 3")
+print("Los numeros:{} y {} son iguales: {}".format(a,b,respuesta))
+print("OPCION 4")
+print("Los numeros: ",a,"y",b,"son diferentes:",respuesta,"\n")
+
+a=int(input("Ingrese la cantidad:"))
+b=int(input("Ingrese la cantidad:"))
+respuesta=a!=b
+print("OPCION1")
+print("Los numeros: "+ str(a)+ " y "+ str(b)+" son diferentes: "+str(respuesta))
+print("OPCION 2")
+print(f"Los numeros: {a} y {b} son difrentes: {respuesta} ")
+print("OPCION 3")
+print("Los numeros:{} y {} son diferentes: {}".format(a,b,respuesta))
+print("OPCION 4")
+print("Los numeros: ",a,"y",b,"son diferentes:",respuesta,"\n")
+
+a=int(input("Ingrese la cantidad:"))
+b=int(input("Ingrese la cantidad:"))
+respuesta=a>b
+print("OPCION1")
+print("El numero: "+ str(a)+ " es mayor que "+ str(b)+" : "+str(respuesta))
+print("OPCION 2")
+print(f"El numero: {a} es mayor que {b} : {respuesta} ")
+print("OPCION 3")
+print("El numero:{} es mayor que {} : {}".format(a,b,respuesta))
+print("OPCION 4")
+print("El numero: ",a,"es mayor que",b,":",respuesta,"\n")
+
+a=int(input("Ingrese la cantidad:"))
+b=int(input("Ingrese la cantidad:"))
+respuesta=a>=b
+print("OPCION1")
+print("El numero: "+ str(a)+ " es mayor o igual "+ str(b)+" : "+str(respuesta))
+print("OPCION 2")
+print(f"El numero: {a} es mayor o igual {b} : {respuesta} ")
+print("OPCION 3")
+print("El numero:{} es mayor o igual {} : {}".format(a,b,respuesta))
+print("OPCION 4")
+print("El numero: ",a,"es mayor o igual",b,":",respuesta,"\n")
+
